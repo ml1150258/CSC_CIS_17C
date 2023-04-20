@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
     
     //Initialize variables here
     n=365;
-    m=n;
+    m=28;
     nTrials=1000000;
     
     //Map inputs to outputs here, i.e. the process

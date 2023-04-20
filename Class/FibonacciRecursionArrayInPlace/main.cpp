@@ -20,6 +20,7 @@ using namespace std;  //Library Scope
 int fibLoop(int);//Fibonacci Loop
 int fibRec(int);//Fibonacci Recursion
 int fibAray(int);//Utilize an Array
+int *fibDyn(int);//Utilize an Array
 
 //Execution Starts Here
 int main(int argc, char** argv){
@@ -29,25 +30,36 @@ int main(int argc, char** argv){
     int nLoop;
     
     //Initialize Variables
-    nLoop=44;
+    nLoop=45;
     
     //Map inputs to outputs -> i.e. process the inputs
     cout<<"Fibonacci Sequence"<<endl;
     
     //Display the outputs
+    cout<<endl<<"Sequence using For Loop and no Array"<<endl;
     for(int n=0;n<=nLoop;n++){
         cout<<fibLoop(n)<<" ";
     }
     cout<<endl<<endl;
     
     //Display the outputs
+    cout<<endl<<"Sequence using For Loop and an Array"<<endl;
     for(int n=0;n<=nLoop;n++){
         cout<<fibAray(n)<<" ";
     }
     cout<<endl<<endl;
     
+    //Display the outputs
+    cout<<endl<<"Sequence using For Loop and return Dyanmic Array"<<endl;
+    int *array=fibDyn(nLoop);
+    for(int n=0;n<=nLoop;n++){
+        cout<<array[n]<<" ";
+    }
+    cout<<endl<<endl;
+    
     
     //Display the outputs
+    cout<<endl<<"Sequence using Recursive Call"<<endl;
     for(int n=0;n<=nLoop;n++){
         cout<<fibRec(n)<<" ";
     }
@@ -55,6 +67,7 @@ int main(int argc, char** argv){
 
     
     //Clean up - File closing, memory deallocation, etc....
+    delete []array;
 
     //Exit Stage Right!
     return 0;
@@ -63,13 +76,27 @@ int main(int argc, char** argv){
 //Function Implementations
 int fibAray(int n){
     //Create array
-    int array[n+1];
+    int *array=new int[n+1];
+    int ans;
     array[0]=0;
     array[1]=1;
     for(int i=2;i<=n;i++){
         array[i]=array[i-1]+array[i-2];
     }
-    return array[n];
+    ans=array[n];
+    delete []array;
+    return ans;
+}
+
+int *fibDyn(int n){
+    //Create array
+    int *array=new int[n+1];
+    array[0]=0;
+    array[1]=1;
+    for(int i=2;i<=n;i++){
+        array[i]=array[i-1]+array[i-2];
+    }
+    return array;
 }
 
 int fibLoop(int n){

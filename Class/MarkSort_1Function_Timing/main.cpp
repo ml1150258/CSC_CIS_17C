@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
     srand(static_cast<unsigned int>(time(0)));
     
     //Declare Variables
-    const int SIZE=20000;//Size of the Array
+    const int SIZE=160000;//Size of the Array
     int array[SIZE];   //Array
     
     //Initialize Variables

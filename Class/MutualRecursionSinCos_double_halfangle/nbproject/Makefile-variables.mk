@@ -7,21 +7,21 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=Cygwin_1-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_1-Windows
+CND_PLATFORM_Debug=Cygwin-Windows
+CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
 CND_ARTIFACT_NAME_Debug=mutualrecursionsincos_double_halfangle
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_1-Windows/mutualrecursionsincos_double_halfangle
-CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_1-Windows/package
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/mutualrecursionsincos_double_halfangle
+CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
 CND_PACKAGE_NAME_Debug=mutualrecursionsincosdoublehalfangle.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_1-Windows/package/mutualrecursionsincosdoublehalfangle.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/mutualrecursionsincosdoublehalfangle.tar
 # Release configuration
-CND_PLATFORM_Release=Cygwin_1-Windows
-CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_1-Windows
+CND_PLATFORM_Release=Cygwin-Windows
+CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
 CND_ARTIFACT_NAME_Release=mutualrecursionsincos_double_halfangle
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_1-Windows/mutualrecursionsincos_double_halfangle
-CND_PACKAGE_DIR_Release=dist/Release/Cygwin_1-Windows/package
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/mutualrecursionsincos_double_halfangle
+CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
 CND_PACKAGE_NAME_Release=mutualrecursionsincosdoublehalfangle.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_1-Windows/package/mutualrecursionsincosdoublehalfangle.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/mutualrecursionsincosdoublehalfangle.tar
 #
 # include compiler specific variables
 #

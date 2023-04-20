@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     srand(static_cast<unsigned int>(time(0)));
     
     //Declare Variables
-    const int SIZE=400;//Size of the Array
+    const int SIZE=1600;//Size of the Array
     int array[SIZE];   //Array
     
     //Initialize Variables
@@ -53,7 +53,7 @@ void markSort(int a[],int n){
     for(int i=0;i<n-1;i++){      //Loop for each position in List
         optot+=4;opeq++;oprel++;oplus+=2;
         for(int j=i+1;j<n;j++){  //Loop to swap with first in List
-            optot+=4;oprel++;opindx+=2;oplus++;
+            optot+=6;oprel+=2;opindx+=2;oplus+=2;
             if(a[i]>a[j]){       //Put the smallest at top of List
                 optot+=15;opindx+=9;opxor+=3;opeq+=3;
                 a[i]=a[i]^a[j];  //In place Swap

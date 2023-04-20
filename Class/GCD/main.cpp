@@ -30,8 +30,8 @@ int main(int argc, char** argv){
     float rationl;//The Rational Number
     
     //Initialize Variables
-    num=6510;
-    den=4845;
+    num=165;
+    den=210;
     rationl=static_cast<float>(num)/den;
     
     //Display the inputs
