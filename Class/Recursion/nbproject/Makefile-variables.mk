@@ -7,21 +7,21 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=Cygwin_1-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_1-Windows
+CND_PLATFORM_Debug=Cygwin-Windows
+CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
 CND_ARTIFACT_NAME_Debug=recursion
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_1-Windows/recursion
-CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_1-Windows/package
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/recursion
+CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
 CND_PACKAGE_NAME_Debug=recursion.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_1-Windows/package/recursion.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/recursion.tar
 # Release configuration
-CND_PLATFORM_Release=Cygwin_1-Windows
-CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_1-Windows
+CND_PLATFORM_Release=Cygwin-Windows
+CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
 CND_ARTIFACT_NAME_Release=recursion
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_1-Windows/recursion
-CND_PACKAGE_DIR_Release=dist/Release/Cygwin_1-Windows/package
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/recursion
+CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
 CND_PACKAGE_NAME_Release=recursion.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_1-Windows/package/recursion.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/recursion.tar
 #
 # include compiler specific variables
 #

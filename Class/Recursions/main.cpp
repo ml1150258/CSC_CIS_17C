@@ -73,7 +73,7 @@ int main(int argc, char** argv) {
         }
         cout<<endl;
     }
-    int nSize=364;
+    int nSize=365;
     float c=(1-1.0f/nSize);
     cout<<"Recursive Sum of Hashes("<<nSize<<") = "
             <<sumHash(nSize,nSize)<<endl;
