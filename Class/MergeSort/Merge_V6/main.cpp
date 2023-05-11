@@ -129,7 +129,8 @@ Data *fill(int n){
     data->sortit=new int[n];
     data->working=new int[n];
     for(int i=0;i<n;i++){
-        data->sortit[i]=mkRndS();
+        //data->sortit[i]=mkRndS();
+        data->sortit[i]=rand();
     }
     return data;
 }

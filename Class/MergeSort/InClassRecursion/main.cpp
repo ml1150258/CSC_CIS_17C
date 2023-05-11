@@ -128,7 +128,7 @@ int   bCoeff(int r,int c){
 }
 
 float expVal(int km,int n){
-    //Base Condtion
+    //Base Condition
     if(km<=0)return 0;
     float sum=0;
     //Loop to solve the recursion
