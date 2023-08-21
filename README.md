@@ -1,1 +1,1 @@
-# 2023_Spring_CIS_CSC_17C
+# CIS_CSC_17C
