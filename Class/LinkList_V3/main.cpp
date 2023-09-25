@@ -22,10 +22,10 @@ void destroy(Link *);
 
 //Prototype function you are to consider for Wednesday
 Link *create(int);    //Create a Link with Data
-void pshFrnt(Link *); //Push a link to the front
-void pshBack(Link *); //Push a link to the end
-Link *popFrnt();      //Pull/pop a link from the front
-Link *popBack();      //Pull/pop a link from the back
+void pshFrnt(Link *,Link *); //Push a link to the front
+void pshBack(Link *,Link *); //Push a link to the end
+Link *popFrnt(Link *);      //Pull/pop a link from the front
+Link *popBack(Link *);      //Pull/pop a link from the back
 
 //Execution Begins Here
 int main(int argc, char** argv) {
