@@ -19,13 +19,14 @@ using namespace std;  //Library Scope
 //Function Prototypes
 float expRec(float);//Exponential Recursion
 double expRec(double);//Exponential Recursion
+double expRecStupid(double);//Exponential Recursion
 
 //Execution Starts Here
 int main(int argc, char** argv){
     //Set Random Number Seed Here
     
     //Declare Variables - Known and Unknown, units, range, description
-    double dx=5.0;
+    double dx=2.0;
     float fx=dx;
     
     
@@ -37,6 +38,7 @@ int main(int argc, char** argv){
     //Display the outputs
     cout<<"e^"<<fx<<" Recursive float  -> "<<expRec(fx)<<endl;
     cout<<"e^"<<dx<<" Recursive double -> "<<expRec(dx)<<endl;
+    cout<<"e^"<<dx<<" Recursive Stupid double -> "<<expRecStupid(dx)<<endl;
     cout<<"e^"<<fx<<" Math Lib         -> "<<exp(fx)<<endl;
 
     
@@ -47,6 +49,15 @@ int main(int argc, char** argv){
 }
 
 //Function Implementations
+double expRecStupid(double x){
+    //Base Case
+    double tol=1e-9f;//Tolerance of 6 decimal, small x approximation
+    if(abs(x)<tol)return 1+x;
+    //Recursive Representation
+    //double a=expRec(x/2);
+    return expRecStupid(x/2)*expRecStupid(x/2);
+}
+
 double expRec(double x){
     //Base Case
     double tol=1e-9f;//Tolerance of 6 decimal, small x approximation
