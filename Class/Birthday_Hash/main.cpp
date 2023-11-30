@@ -19,15 +19,6 @@ using namespace std;
 //Well known Science, Mathematical and Laboratory Constants
 
 //Recursive Function
-int *filAray(int n){
-    //Declare and allocate the array
-    n=n<2?2:n;
-    int *array=new int[n];
-    for(int i=0;i<n;i++){
-        array[i]=rand()%90+10;//2 Digit Random Array
-    }
-    return array;
-}
 float sumHash(int,int);
 int simHash(int,int);
 float avgHash(int,int,int);
@@ -74,7 +65,7 @@ float avgHash(int nloop,int n,int m){
 
 int simHash(int n,int m){
     //Fill and Initialize array to 0
-    int *array=filAray(n);
+    int *array=new int[n];
     for(int i=0;i<n;i++){
         array[i]=0;
     }

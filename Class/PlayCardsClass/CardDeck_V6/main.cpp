@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
     Deck deck(nCards);
     
     //Process inputs to outputs/map
-    deck.shuffle();
+    //deck.shuffle();
     
     //Deal the Cards
     int nDeal=5;

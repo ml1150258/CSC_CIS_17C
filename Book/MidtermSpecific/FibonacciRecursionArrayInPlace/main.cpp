@@ -29,7 +29,7 @@ int main(int argc, char** argv){
     int nLoop;
     
     //Initialize Variables
-    nLoop=46;
+    nLoop=40;
     
     //Map inputs to outputs -> i.e. process the inputs
     cout<<"Fibonacci Sequence"<<endl;

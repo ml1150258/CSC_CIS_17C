@@ -7,13 +7,13 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=Cygwin_1-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_1-Windows
+CND_PLATFORM_Debug=Cygwin-Windows
+CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
 CND_ARTIFACT_NAME_Debug=avltreetest
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_1-Windows/avltreetest
-CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_1-Windows/package
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/avltreetest
+CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
 CND_PACKAGE_NAME_Debug=avltreetest.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_1-Windows/package/avltreetest.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/avltreetest.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX

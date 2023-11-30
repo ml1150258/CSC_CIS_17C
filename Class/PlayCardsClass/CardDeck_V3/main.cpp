@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
     
     //Process inputs to outputs/map
     for(int i=0;i<52;i++){
-        cout<<i<<" "<<deck[i]->face()<<deck[i]->suit()<<" "
+        cout<<i<<" "<<(*deck[i]).face()<<(**(deck+i)).suit()<<" "
                 <<static_cast<int>(deck[i]->value())<<endl;
     }
     

@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
     //Process inputs to outputs/map
     for(int i=0;i<52;i++){
         Card card(i);
-        cout<<i<<" "<<card.face()<<card.suit()<<" "
+        cout<<static_cast<int>(card.getCrdNm())<<" "<<card.face()<<card.suit()<<" "
                 <<static_cast<int>(card.value())<<endl;
     }
     
