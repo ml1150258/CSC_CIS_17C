@@ -80,7 +80,7 @@ void fill2D(int a[][COL],int row){
 int * fill1D(int n){
     int *a=new int[n];
     for(int i=0;i<n;i++){
-        a[i]=rand()%90+10;
+        i[a]=rand()%90+10;
     }
     return a;
 }

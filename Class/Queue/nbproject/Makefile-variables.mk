@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=static_dynamic_1_and_2_d_arrays
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/static_dynamic_1_and_2_d_arrays
+CND_ARTIFACT_NAME_Debug=queue
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/queue
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=staticdynamic1and2darrays.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/staticdynamic1and2darrays.tar
+CND_PACKAGE_NAME_Debug=queue.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/queue.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=static_dynamic_1_and_2_d_arrays
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/static_dynamic_1_and_2_d_arrays
+CND_ARTIFACT_NAME_Release=queue
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/queue
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=staticdynamic1and2darrays.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/staticdynamic1and2darrays.tar
+CND_PACKAGE_NAME_Release=queue.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/queue.tar
 #
 # include compiler specific variables
 #

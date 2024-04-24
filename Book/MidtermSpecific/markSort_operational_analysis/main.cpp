@@ -15,7 +15,7 @@ using namespace std;  //Library Scope
 //Global Constants
 //Science and Math, Conversions, Higher Dimensions
 //const to follow
-int O,Ps,Os,Oi,Oo;
+int Ob,P,Os,Oi,Oj;
 
 //Function Prototypes
 int *filAray(int);
@@ -29,7 +29,7 @@ int main(int argc, char** argv){
     srand(static_cast<unsigned int>(time(0)));
     
     //Declare Variables - Known and Unknown, units, range, description
-    int size=100;
+    int size=800;
     int *array;
     
     //Initialize Variables
@@ -41,12 +41,12 @@ int main(int argc, char** argv){
     //Map inputs to outputs -> i.e. process the inputs
     mrkSort(array,size);
     cout<<"N     = "<<size<<endl;
-    cout<<"O     = "<<O<<endl;
-    cout<<"Oo    = "<<Oo<<endl;
+    cout<<"Ob    = "<<Ob<<endl;
     cout<<"Oi    = "<<Oi<<endl;
-    cout<<"Ps    = "<<Ps<<endl;
+    cout<<"Oj    = "<<Oj<<endl;
+    cout<<"P     = "<<P<<endl;
     cout<<"Os    = "<<Os<<endl;
-    cout<<"Total = "<<O+Oo+Oi+Ps+Os<<endl;
+    cout<<"Total = "<<Ob+Oi+Oj+P+Os<<endl;
     
     //Display the outputs
     //prntAry(array,size,10);
@@ -59,14 +59,14 @@ int main(int argc, char** argv){
 }
 
 void mrkSort(int *a,int n){
-    O+=3;
+    Ob+=3;
     for(int i=0;i<n-1;i++){
-        Oo+=5;
+        Oi+=5;
         for(int j=i+1;j<n;j++){
-            Oi+=5;
+            Oj+=5;
             if(a[i]>a[j]){
-                Ps++;
-                Os+=15;
+                P++;
+                Os+=15;  
                 a[i]=a[i]^a[j];
                 a[j]=a[i]^a[j];
                 a[i]=a[i]^a[j];

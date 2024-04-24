@@ -28,7 +28,7 @@ int main(int argc, char** argv){
     srand(static_cast<unsigned int>(time(0)));
     
     //Declare Variables - Known and Unknown, units, range, description
-    int size=25000;
+    int size=200000;
     int *array;
     
     //Initialize Variables
